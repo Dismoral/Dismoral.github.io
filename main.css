@@ -1,0 +1,54 @@
+.body, html {
+            /* Указываем путь к изображению */
+            background-image: url('font.png');
+            
+            /* Размещаем изображение по центру страницы */
+            background-position: center;
+            
+            /* Масштабируем изображение так, чтобы оно занимало весь экран */
+            background-size: cover;
+            
+            /* Фиксируем изображение, чтобы оно не прокручивалось вместе с содержимым */
+            background-attachment: fixed;
+        }
+
+.photo {
+    border-radius: 80px;
+    border: 3px solid slategrey;
+    box-shadow: 0 0 7px #666;
+    transition: transform 0.3s ease;
+    margin-top: 10px;
+   }
+
+.photo:hover {
+            transform: scale(1.2);
+    }
+
+.item {
+    text-align: center;
+     margin-top: 50px
+    }
+
+.card {      
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 25px;  
+  background: whitesmoke;
+  border: 3px solid slategrey;
+  max-width: 800px;
+  max-height: 800px;
+  margin: auto;
+  text-align: center;  
+  margin-top: 180px;
+  font-family: arial;
+}
+
+.title {
+  color: black;
+  font-size: 22px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
